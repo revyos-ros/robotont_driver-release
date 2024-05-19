@@ -1,0 +1,12 @@
+Source: ros-humble-robotont-driver
+Section: misc
+Priority: optional
+Maintainer: Veiko Vunder <veiko@robotont.eu>
+Build-Depends: debhelper (>= 9.0.0), libasio-dev, ros-humble-ament-cmake, ros-humble-ament-cmake-auto, ros-humble-asio-cmake-module, ros-humble-geometry-msgs, ros-humble-io-context, ros-humble-nav-msgs, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rclcpp-lifecycle, ros-humble-serial-driver, ros-humble-std-msgs, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-robotont-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libasio-dev, ros-humble-geometry-msgs, ros-humble-io-context, ros-humble-nav-msgs, ros-humble-pluginlib, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rclcpp-lifecycle, ros-humble-serial-driver, ros-humble-std-msgs, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros, ros-humble-ros-workspace
+Description: Hardware driver for the Robotont robot
